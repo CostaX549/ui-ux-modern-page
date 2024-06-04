@@ -2,33 +2,32 @@ import React from 'react'
 import './features.css'
 import Feature from '../../components/feature/Feature';
 
-const featuresData =  [
+const featuresData = [
   {
-    title: 'Improving end distrusts instantly',
-    text: 'From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded.'
+    title: 'Melhore a conexão instantaneamente', 
+    text: 'Acabe com o lag e o buffering com a nossa conexão de fibra ótica ultrarrápida. Assista a filmes em 4K, baixe arquivos enormes e jogue online sem interrupções - tudo na velocidade da luz.' 
   },
   {
-    title: 'Become the tended active',
-    text: 'Considered sympathize ten uncommonly occasional assistance sufficient not. Letter of on become he tended active enable to.'
+    title: 'Conectividade sem interrupções', 
+    text: 'Diga adeus a quedas frustrantes e olá para uma estabilidade sólida. Nossa infraestrutura de rede avançada garante que você esteja sempre conectado, esteja trabalhando, aprendendo ou se conectando com seus entes queridos.' 
   },
   {
-    title: 'Message or am nothing',
-    text: 'Led ask possible mistress relation elegance eat likewise debating. By message or am nothing amongst chiefly address.'
+    title: 'Dados ilimitados para liberar seu potencial', 
+    text: 'Chega de se preocupar com limites de dados ou lentidão. A CyberFusion oferece planos de dados verdadeiramente ilimitados, para que você possa transmitir, baixar e explorar a web sem limitações.' 
   },
   {
-    title: 'Really boy law county',
-    text: 'Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table in an rapid blush.'
-  }
-
-
-]
+    title: 'Potencialize sua casa inteligente', 
+    text: 'Transforme seu espaço em um refúgio conectado. A CyberFusion se integra perfeitamente com dispositivos de casa inteligente, permitindo que você controle luzes, termostatos e eletrodomésticos com facilidade - tudo a partir do seu smartphone.' 
+  },
+ 
+];
 
 const Features = () => {
   return (
     <div className="gpt3__features section__padding" id="features">
       <div className="gpt3__features-heading">
-        <h1 className="gradient__text">The Future is Now and You Just Need To Realize It. Step into Future Today & Make it Happen.</h1>
-        <p>Request Early Access to Get Started</p>
+        <h1 className="gradient__text">O futuro é agora, evite estresses e lentidões na internet com a CyberFusion</h1>
+        <p>Requira Acesso Antecipado Agora</p>
       </div>
       <div className="gpt3__features-container">
          {featuresData.map((item, index) => (

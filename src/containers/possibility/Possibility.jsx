@@ -10,10 +10,10 @@ const Possibility = () => {
         <img src={possibilityImage} alt="possibilityImage" />
       </div>
       <div className="gpt3__possibility-content">
-         <h4>Request Early Access to Get Started</h4>
-         <h1 className="gradient__text">The possibilities are beyond your imagination.</h1>
-         <p>Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of.</p>
-         <h4>Request Early Access to Get Started</h4>
+         <h4>Requira Acesso Antecipado para Começar</h4>
+         <h1 className="gradient__text">As possibilidades vão além da sua imaginação.</h1>
+         <p>A CyberFusion está comprometida com a responsabilidade ambiental. Investimos em fontes de energia renovável para alimentar nossa rede, minimizando nossa pegada de carbono e garantindo um planeta mais saudável.</p>
+         <h4>Requira Acesso Antecipado para Começar</h4>
       </div>
     </div>
   )
